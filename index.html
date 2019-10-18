@@ -189,8 +189,8 @@
           <label for="iconGit">github</label>
         </div>
       </div>
-      <a class="btn btn-primary btn-xl"
-        href="https://drive.google.com/file/d/1PeVt0g27EnTOKx2-kwpaQDegULx2r2Eh/view">View My Resume</a>
+      <a class="btn btn-primary btn-xl mr-1" href="https://drive.google.com/file/d/1PeVt0g27EnTOKx2-kwpaQDegULx2r2Eh/view">View My Resume</a>
+        <a class="btn btn-primary btn-xl js-scroll-trigger ml-1" href="#portfolio">View My Portfolio</a>
     </div>
   </section>
 
@@ -202,7 +202,7 @@
         <h2 class="mb-5">Recent Projects</h2>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 projectLink">
+        <div class="col-lg-6 projectLink" data-projId=1>
           <a class="portfolio-item" data-toggle="modal" data-target="#projectModal">
             <span class="caption">
               <span class="caption-content">
@@ -213,7 +213,7 @@
             <img class="img-fluid bg-warning p-3" src="img/pokeball.svg" alt="">
           </a>
         </div>
-        <div class="col-lg-6 projectLink">
+        <div class="col-lg-6 projectLink" data-projId=2>
           <a class="portfolio-item" data-toggle="modal" data-target="#projectModal">
             <span class="caption">
               <span class="caption-content">
@@ -224,7 +224,7 @@
             <img class="img-fluid bg-danger p-5" src="img/pill.svg" alt="">
           </a>
         </div>
-        <div class="col-lg-6 projectLink">
+        <div class="col-lg-6 projectLink" data-projId=3>
           <a class="portfolio-item" data-toggle="modal" data-target="#projectModal">
             <span class="caption">
               <span class="caption-content">
@@ -235,7 +235,7 @@
             <img class="img-fluid bg-primary p-5" src="img/rps.svg" alt="">
           </a>
         </div>
-        <div class="col-lg-6 projectLink">
+        <div class="col-lg-6 projectLink" data-projId=4>
           <a class="portfolio-item" data-toggle="modal" data-target="#projectModal">
             <span class="caption">
               <span class="caption-content">
@@ -253,7 +253,7 @@
   <!-- Call to Action -->
   <section class="content-section bg-primary text-white">
     <div class="container text-center">
-      <h2 class="mb-4">Let's talk if you have a problem that you think I can solve...</h2>
+      <h2 class="mb-4">If you have a problem that you think I can help solve...Lets Talk!</h2>
       <a href="mailto:edel.marcelino@gmail.com" class="btn btn-xl btn-warning mr-4"><i class="fas fa-envelope-open-text fa-3x"></i></a>
       <!-- <a href="#" class="btn btn-xl btn-dark"></a> -->
     </div>
@@ -304,12 +304,20 @@
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
+        <div class="modal-body m-3">
           
         </div>
-        <div class="modal-footer d-flex justify-content-center">
-          <button type="button" class="btn btn-primary" id="modal-app-btn">Launch App</button>
-          <button type="button" class="btn btn-primary" id="modal-git-btn">Github</button>
+        <div class="modal-footer d-flex justify-content-center my-2">
+          <a href="" target="_blank" id="modal-app-btn">
+            <button type="button" class="btn btn-primary">
+              <i class="fas fa-laptop-code mr-2"></i>Launch App
+            </button>
+          </a>
+          <a href="" target="_blank" id="modal-git-btn">
+            <button type="button" class="btn btn-primary">
+              <i class="fab fa-github mr-2"></i>View Code
+            </button>
+          </a>
         </div>
       </div>
     </div>
