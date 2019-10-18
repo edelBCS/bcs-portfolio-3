@@ -11,7 +11,7 @@ var projects = [
         projectNo: 2,
         title: "Check Yo Pill",
         photo: "./img/checkyopill.jpg",
-        description: "A NodeJS, Express, MySQL application that allows users to add medications to thier account, then our system, utilizing the RxNORM and RxInteraction API's from the U.S. National Insitute of Health, to cross check any negative interactions between medications in real time.",
+        description: "A NodeJS, Express, MySQL application that allows users to add medications to thier account. Then our system, utilizing the RxNORM and RxInteraction API's from the U.S. National Insitute of Health, cross checks for any negative interactions between your medications in real time.",
         appLink: "https://checkyopill.herokuapp.com",
         githubLink: "https://github.com/ucsd-teamwork-projects/groupProj2"
     },
