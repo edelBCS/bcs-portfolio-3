@@ -202,48 +202,48 @@
         <h2 class="mb-5">Recent Projects</h2>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
+        <div class="col-lg-6 projectLink">
+          <a class="portfolio-item" data-toggle="modal" data-target="#projectModal">
             <span class="caption">
               <span class="caption-content">
                 <h2>Pokemon Stay</h2>
                 <p class="mb-0">A game that allows people w/ disabilities to play Pokemon Go.</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+            <img class="img-fluid bg-warning p-3" src="img/pokeball.svg" alt="">
           </a>
         </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
+        <div class="col-lg-6 projectLink">
+          <a class="portfolio-item" data-toggle="modal" data-target="#projectModal">
             <span class="caption">
               <span class="caption-content">
                 <h2>Check Yo Pill</h2>
                 <p class="mb-0">A drug interaction app that allows users to discover any potential negative interaction between medications they are taking.</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+            <img class="img-fluid bg-danger p-5" src="img/pill.svg" alt="">
           </a>
         </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
+        <div class="col-lg-6 projectLink">
+          <a class="portfolio-item" data-toggle="modal" data-target="#projectModal">
             <span class="caption">
               <span class="caption-content">
                 <h2>Online RPS Multiplayer Game</h2>
                 <p class="mb-0">An online multiplayer version of an old classic, with a twist!</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+            <img class="img-fluid bg-primary p-5" src="img/rps.svg" alt="">
           </a>
         </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
+        <div class="col-lg-6 projectLink">
+          <a class="portfolio-item" data-toggle="modal" data-target="#projectModal">
             <span class="caption">
               <span class="caption-content">
                 <h2>Star Wars: Sabre Duels</h2>
                 <p class="mb-0">A simple turn based fighting game.</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+            <img class="img-fluid bg-secondary p-5" src="img/deathstar.svg" alt="">
           </a>
         </div>
       </div>
@@ -253,14 +253,14 @@
   <!-- Call to Action -->
   <section class="content-section bg-primary text-white">
     <div class="container text-center">
-      <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-      <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
-      <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
+      <h2 class="mb-4">Let's talk if you have a problem that you think I can solve...</h2>
+      <a href="mailto:edel.marcelino@gmail.com" class="btn btn-xl btn-warning mr-4"><i class="fas fa-envelope-open-text fa-3x"></i></a>
+      <!-- <a href="#" class="btn btn-xl btn-dark"></a> -->
     </div>
   </section>
 
   <!-- Map -->
-  <section id="contact" class="map">
+  <!-- <section id="contact" class="map">
     <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
       src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
     <br />
@@ -268,31 +268,52 @@
       <a
         href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
     </small>
-  </section>
+  </section> -->
 
   <!-- Footer -->
   <footer class="footer text-center">
     <div class="container">
       <ul class="list-inline mb-5">
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#">
-            <i class="icon-social-facebook"></i>
+          <a class="social-link rounded-circle text-white mr-3" href="mailto:edel.marcelino@gmail.com">
+            <i class="fas fa-envelope-open-text"></i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#">
-            <i class="icon-social-twitter"></i>
+          <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/edel-marcelino/">
+            <i class="icon-social-linkedin"></i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="#">
+          <a class="social-link rounded-circle text-white" href="https://github.com/edelBCS">
             <i class="icon-social-github"></i>
           </a>
         </li>
       </ul>
-      <p class="text-muted small mb-0">Copyright &copy; Your Website 2019</p>
+      <p class="text-muted small mb-0">Copyright &copy; MarcelinoMade 2019</p>
     </div>
   </footer>
+
+  <!-- Modal -->
+<div class="modal fade" id="projectModal" tabindex="-1" role="dialog" aria-labelledby="projectModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="projectModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          
+        </div>
+        <div class="modal-footer d-flex justify-content-center">
+          <button type="button" class="btn btn-primary" id="modal-app-btn">Launch App</button>
+          <button type="button" class="btn btn-primary" id="modal-git-btn">Github</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Scroll to Top Button-->
   <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
@@ -308,6 +329,7 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/stylish-portfolio.min.js"></script>
+  <script src="js/modal.js"></script>
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/89b68748b2.js" crossorigin="anonymous"></script>
