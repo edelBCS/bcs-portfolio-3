@@ -33,12 +33,12 @@ var projects = [
     }
 ]
 
-$(".projectLink").on("click", function(){
+$(".projectLink").on("click", function () {
     var projectID = $(this).attr("data-projId");
 
     $(".modal-body").empty();
     projects.forEach(project => {
-        if(project.projectNo == projectID){
+        if (project.projectNo == projectID) {
             $(".modal-title").text(project.title);
             $(".modal-body").append(
                 $("<img>").attr("src", project.photo).addClass("img-fluid rounded mb-3")
