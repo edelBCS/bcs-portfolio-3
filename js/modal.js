@@ -47,7 +47,7 @@ var projects = [
         appLink: "https://edelbcs.github.io/Word-Guess-Game/",
         githubLink: "https://github.com/edelBCS/Word-Guess-Game"
     }
-]
+];
 
 $(".projectLink").on("click", function () {
     var projectID = $(this).attr("data-projId");
