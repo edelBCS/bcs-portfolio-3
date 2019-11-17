@@ -30,8 +30,24 @@ var projects = [
         description: "This was a simple turn based fighting game that was the precursor to Pokemon Stay. You start by choosing your champion and your opponent. You can choose from three abilities Fight, Dodge, or Defend. As you defeat opponents, your champion becomes stronger. Keep fighting until all the opponents are defeated, or you are.",
         appLink: "https://edelbcs.github.io/StarWars-Fight_Game/",
         githubLink: "https://github.com/edelBCS/StarWars-Fight_Game"
+    },
+    {
+        projectNo: 5,
+        title: "MTG News Scraper",
+        photo: "./img/mtg.jpg",
+        description: "The MTG News Scaper utilizes the cheerio NodeJS package to scrape the MTG Goldfish website for all current stories and articles.  It then redisplays them in a simple, easy to read, format.  It also introduces a Likes and Comment system for people to rank articles.",
+        appLink: "https://edel-news-scraper.herokuapp.com",
+        githubLink: "https://github.com/edelBCS/news-scrapper"
+    },
+    {
+        projectNo: 6,
+        title: "Zombie Word Guess",
+        photo: "./img/zombie.jpg",
+        description: "This simple word guess game was my inital foray into jQuery. When the game is launched you can start typing any letters to try to guess the word and escape from the zombie. Your score and remaining guesses are the tracked on the left. Try it out and see if you can avoid being zombie dinner!",
+        appLink: "https://edelbcs.github.io/Word-Guess-Game/",
+        githubLink: "https://github.com/edelBCS/Word-Guess-Game"
     }
-]
+];
 
 $(".projectLink").on("click", function () {
     var projectID = $(this).attr("data-projId");
