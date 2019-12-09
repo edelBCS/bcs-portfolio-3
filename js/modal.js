@@ -9,6 +9,14 @@ var projects = [
     },
     {
         projectNo: 2,
+        title: "COMMUNAL",
+        photo: "./img/communal.png",
+        description: "Communal allows for people to host Socials to find people with similar interests.  For Example, Do you like work working?, host a wood working social. Other users are then randomly present socials that they can choose to attend.  Think of it like Tinder for group activites.",
+        appLink: "https://communal-app.herokuapp.com",
+        githubLink: "https://github.com/ucsd-teamwork-projects/Communal-App"
+    },
+    {
+        projectNo: 3,
         title: "Check Yo Pill",
         photo: "./img/checkyopill.jpg",
         description: "A NodeJS, Express, MySQL application that allows users to add medications to thier account. Then our system, utilizing the RxNORM and RxInteraction API's from the U.S. National Insitute of Health, cross checks for any negative interactions between your medications in real time.",
@@ -16,20 +24,12 @@ var projects = [
         githubLink: "https://github.com/ucsd-teamwork-projects/groupProj2"
     },
     {
-        projectNo: 3,
+        projectNo: 4,
         title: "Rock Paper Scissors (Lizard Spock!?!)",
         photo: "./img/rps.jpg",
         description: "This is a twist on the old Ro Sham Beaux classic with a bit of influence from The Big Bang Theory. This game features online multiplayer capability and chat via the use of the Google Firebase realtime database. So go ahead and send the link to a friend and have some fun.",
         appLink: "https://edelbcs.github.io/Online-Multiplayer-RPS/",
         githubLink: "https://github.com/edelBCS/Online-Multiplayer-RPS"
-    },
-    {
-        projectNo: 4,
-        title: "Star Wars: Saber Duals",
-        photo: "./img/starwarsduel.jpg",
-        description: "This was a simple turn based fighting game that was the precursor to Pokemon Stay. You start by choosing your champion and your opponent. You can choose from three abilities Fight, Dodge, or Defend. As you defeat opponents, your champion becomes stronger. Keep fighting until all the opponents are defeated, or you are.",
-        appLink: "https://edelbcs.github.io/StarWars-Fight_Game/",
-        githubLink: "https://github.com/edelBCS/StarWars-Fight_Game"
     },
     {
         projectNo: 5,
