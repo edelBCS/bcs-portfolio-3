@@ -11,7 +11,7 @@ var projects = [
         projectNo: 2,
         title: "COMMUNAL",
         photo: "./img/communal.png",
-        description: "Communal allows for people to host Socials to find people with similar interests.  For Example, Do you like work working?, host a wood working social. Other users are then randomly present socials that they can choose to attend.  Think of it like Tinder for group activites.",
+        description: "Communal is a ReactJS app that allows people to host Socials, allowing them to find people with similar interests.  For Example, Do you like work working?, host a wood working social. Other users are then randomly presented with Socials that they can choose to attend.  Think of it like Tinder for group activites.",
         appLink: "https://communal-app.herokuapp.com",
         githubLink: "https://github.com/ucsd-teamwork-projects/Communal-App"
     },
@@ -43,7 +43,7 @@ var projects = [
         projectNo: 6,
         title: "Zombie Word Guess",
         photo: "./img/zombie.jpg",
-        description: "This simple word guess game was my inital foray into jQuery. When the game is launched you can start typing any letters to try to guess the word and escape from the zombie. Your score and remaining guesses are the tracked on the left. Try it out and see if you can avoid being zombie dinner!",
+        description: "This simple word guess game was my inital foray into jQuery. When the game is launched you can start typing any letters to try to guess the word and escape from the zombie horde. Your score and remaining guesses are the tracked on the left. Try it out and see if you can avoid being zombie dinner!",
         appLink: "https://edelbcs.github.io/Word-Guess-Game/",
         githubLink: "https://github.com/edelBCS/Word-Guess-Game"
     }
